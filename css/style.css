@@ -1,0 +1,128 @@
+header{
+	border: 2px solid black;
+	padding: 20px 0;
+	background-color: #F56A4D ;
+	color: black;
+}
+
+header a{
+	text-decoration: none;
+	font-size: 15px;
+	font-family: 'Courier New', monospace;
+	color: black;
+	font-weight: bold;
+	padding: 10px 12px;
+	background-color: #BD4DF5;
+	border-radius: 5px;
+	transition: all 0.1s ease;
+}
+
+header a:hover{
+	color: #BD4DF5;
+	background-color: limegreen;
+	border: 2px solid black;
+}
+
+.hover p {
+  display: none;
+  background-color: #3BCFCF;
+  padding: 10px;
+}
+
+.hover div:hover p {
+  display: block;  
+}
+
+.textshadow{
+	text-shadow: 5px 5px 5px limegreen;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.nth-child {
+	
+	background-color: #3BCFCF;
+}
+
+.nth-child p:first-child {
+	color: yellow;
+}
+
+.nth-child p:last-child {
+	color: red;
+}
+
+.textarrangement {
+	
+	background-color: #581845;
+	color: white;
+}
+
+.textarrangement .overline{
+	text-decoration: overline;
+}
+
+.textarrangement .line-through{
+	text-decoration: line-through;
+}
+
+.textarrangement .underline{
+	text-decoration: underline;
+}
+
+
+.pseudo {
+	background-color: #117A65;
+} 
+
+.pseudo-checked input:checked{
+	height: 10px;
+	width: 20px;
+}
+
+.pseudo-disable input:disabled{
+	background-color: lightcyan;
+}
+
+.pseudo-disable input:enabled{
+	background-color: limegreen ;
+}
+
+.focus input:focus{
+	background-color: #008080;
+}
+
+	/*
+.target {
+  border: 5px solid black;
+  background-color: #808000;
+}
+
+		*/
+
+
+.required input:required{
+	border: 3px solid red;
+}
+
+.optional input:optional{
+	background-color: wheat;
+
+}
+
+.backgroundcolor .testdiv{
+	width: 100px;
+	height: 50px;
+	background-color: red;
+	opacity: 0.5;
+}
+
+.actualcolor .testdiv{
+	width: 100px;
+	height: 50px;
+	background-color: red;
+	opacity: 1;
+}
+
+
+
